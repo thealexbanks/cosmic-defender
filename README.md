@@ -6,7 +6,7 @@ A fast-paced space shooter game where you defend against waves of alien invaders
 
 ## Play the Game
 
-You can play the game online at: [https://yourusername.github.io/space-game](https://yourusername.github.io/space-game)
+You can play the game online at: [https://thealexbanks.github.io/cosmic-defender](https://thealexbanks.github.io/cosmic-defender)
 
 ## How to Play
 
