@@ -25,7 +25,8 @@ let leaderboardShown = false;
 let leaderboardData = [];
 let debugMode = false;
 
-// Email masking function (backup in case the one in supabase-config.js isn't available)
+// Email masking function to protect user privacy
+// Converts emails like "example@domain.com" to "exa***@*****.com"
 function hashEmail(email) {
   if (!email || typeof email !== 'string' || !email.includes('@')) {
     return 'anonymous';
@@ -1811,6 +1812,7 @@ function setupLeaderboardEventListeners() {
     submitButton.textContent = 'Submitting...';
     
     // Save the score to Supabase
+    // Note: Email addresses are stored securely and anonymized when displayed on the leaderboard
     const result = await saveScore(playerEmail, score, level);
     
     if (result.success) {
