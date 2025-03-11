@@ -46,7 +46,7 @@ This game was built using:
 
 ## Credits
 
-Created by [Your Name]
+Created by [Alex Banks](https://x.com/thealexbanks)
 
 ## License
 
